@@ -1,0 +1,13 @@
+gui:
+  showIcons: true
+  theme:
+    activeBorderColor:
+      - "#F92672" # Rosa Monokai
+    inactiveBorderColor:
+      - "#75715E" # Gris piedra
+    optionsTextColor:
+      - "#66D9EF" # Cyan
+    selectedLineBgColor:
+      - "#3E3D32" # Fondo gris oscuro
+    selectedRangeBgColor:
+      - "#3E3D32" # Consistencia en selecciones múltiples

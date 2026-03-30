@@ -1,0 +1,13 @@
+[misc]
+# No actualices cosas que prefieras hacer tú mismo (ej. contenedores)
+disable = ["containers"]
+sudo_command = "sudo"
+set_title = true
+display_time = true
+
+# Hacer que limpie los paquetes huérfanos de pacman después de actualizar
+cleanup = true
+
+[commands]
+# Puedes añadir comandos personalizados
+# "Actualizar mis fuentes Nerd" = "fc-cache -fv"

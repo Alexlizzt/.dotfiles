@@ -1,0 +1,22 @@
+gui:
+  theme:
+    activeBorderColor:
+      - "#F92672" # Rosa Monokai para la ventana activa
+    inactiveBorderColor:
+      - "#75715E" # Gris piedra para lo inactivo
+    optionsTextColor:
+      - "#66D9EF" # Cyan para las teclas de opción
+    selectedLineBgColor:
+      - "#3E3D32" # Fondo gris oscuro para la línea seleccionada
+    cherryPickedCommitBgColor:
+      - "#A6E22E" # Verde para commits seleccionados
+    cherryPickedCommitFgColor:
+      - "#272822" # Texto oscuro sobre verde
+    unstagedChangesColor:
+      - "#F92672" # Rosa para archivos con cambios (atención!)
+  # Esto hace que se vea más limpio con iconos si tienes una Nerd Font
+  showIcons: true
+git:
+  pagers:
+    - colorArg: always
+      pager: delta --dark --paging=never # Si tienes 'delta' instalado, se ve increíble

@@ -1,0 +1,17 @@
+[style.command_name]
+foreground = "magenta" # El clásico rosa Monokai
+bold = true
+
+[style.example_text]
+foreground = "green"   # El verde brillante para las descripciones
+
+[style.example_code]
+foreground = "cyan"    # El azul/cyan para el comando real
+
+[style.example_variable]
+foreground = "yellow"  # El amarillo/naranja para los parámetros <user>
+underline = true
+
+[display]
+compact = false        # Deja espacio entre ejemplos para que respire
+use_pager = false      # Para que no te abra un 'less' si la página es corta
