@@ -39,7 +39,8 @@ PKGS=(
     android-sdk-platform-tools brave-bin webapp-manager
     ttf-ms-fonts plank-reloaded-git tealdeer lolcat cowsay
     docker docker-compose zsh neovim wezterm fastfetch 
-    bat eza zoxide fzf btop xclip onefetch git-delta 
+    bat eza zoxide fzf btop xclip onefetch git-delta
+    git github-cli
     cabextract lazydocker lazygit httpie glow jq yq duf stow
 )
 sudo pacman -S --needed --noconfirm "${PKGS[@]}"
